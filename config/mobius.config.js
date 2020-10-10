@@ -1,4 +1,4 @@
-const PUBLIC_PATH = '|' // '|'
+const PUBLIC_PATH = '/' // '/bookmarklet/'
 // https://fonts.googleapis.com/
 //  -> https://fonts.googleapis.cnpmjs.org/
 //  -> https://fonts.dogedoge.com/
@@ -52,7 +52,7 @@ module.exports = {
       },
       // from: https://tongji.baidu.com/sc-web/
       baiduAnalytics: {
-        trackingId: false // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        trackingId: '89800e87d653c029ac942518a5253564' // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
       }
     }
   }

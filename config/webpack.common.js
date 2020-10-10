@@ -13,9 +13,10 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
     alias: {
-      Libs: resolve('src/libs/'),
       MobiusUI$: resolve('src/libs/mobius-ui.js'),
       MobiusJS$: resolve('src/libs/mobius-js.js'),
+      MobiusUtils$: resolve('src/libs/mobius-utils.js'),
+      Libs: resolve('src/libs/'),
       Interface: resolve('src/interface/'),
       Business: resolve('src/business/')
     },
