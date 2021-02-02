@@ -52,7 +52,7 @@ export const Editor = source => {
   return {
     DOM: combineLatest([monacoEditor.DOM, intent$s.run, intent$s.gen]).pipe(
       map(([monacoEditor, run, bookmarklet]) => {
-        const runBtnSelector = '.mobius-margin-x--r-small.mobius-text--bold.mobius-cursor--pointer.hover_mobius-text--primary.mobiuse'
+        const runBtnSelector = '.mobius-margin-x--r-small.mobius-text--bold.mobius-cursor--pointer.hover_mobius-text--primary'
         const bookmarkletBtnSelector = '.mobius-border--all.mobius-rounded--base.mobius-padding-x--r-small.mobius-margin-x--r-small.mobius-cursor--pointer.hover_mobius-text--primary'
 
         return makeMiddleRowAdaptiveLayoutE({
